@@ -16,14 +16,17 @@
     --branco: #fff;
 }
 
+
 .titulo{
-    font-size: 60px;
+    font-size: 40px;
     font-family:'Podkova';
+    color: var(--branco);
 }
 
 .frase{
-    font-size: 34px;
+    font-size: 24px;
     font-family: 'Poly';
+    color: var(--branco);
 }
 
 .info{
@@ -31,7 +34,7 @@
     font-family: 'Poppins';
 }
 
-.d1{
+#d1{
     display: flex;
     align-content: center;
     align-items: center;
@@ -63,14 +66,113 @@
     width: 606px;
 }
 
-.cabecalho{
+#logo-w-d2{
+    width: 160px;
+}
+
+#header{
      display: flex;
      flex-flow: row nowrap;
      align-items: center;
      justify-content: space-between;
      padding: 15px;
-     background-color: black;
+     background-color: var(--preto);
+
+     height: 80px;
 }
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+.d2{
+    height: 600px;
+    padding: 80px;
+    background-image: url(/imgs/Funo.png);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div1-d2{
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 50px;
+}
+
+.frase-d2{
+    width: 1000px;
+    font-size: 24px;
+    font-family: 'Poly';
+    color: var(--branco);
+    text-align: center;
+}
+
+.botao-d2{
+    padding: 20px;
+    width: 220px;
+    border: none;
+    border-radius: 20px;
+    color: var(--branco);
+    background-color: var(--preto);
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+.d3{
+    display: flex;
+}
+
+.div1-d3{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+    background-color: var(--preto);
+}
+
+.titulo-d3{
+    font-size: 40px;
+    font-family:'Podkova';
+    color: var(--branco);
+}
+
+.frase-d3{
+    font-size: 24px;
+    font-family: 'Poly';
+    color: var(--branco);
+}
+
+#paulofreire-d3{
+    max-width: 541px;
+}
+
+#botao-d3{
+    padding: 25px;
+    margin: 5px;
+    width:50%;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 20px
+}
+
+#palito-d3{
+    background-color: var(--rosa);
+    margin: 10px;
+    width: 170px;
+    height: 8px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 2px solid var(--preto);
+}
+
 
 @keyframes pulsar {
     0%{
