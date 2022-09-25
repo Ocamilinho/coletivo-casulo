@@ -81,24 +81,30 @@
     height: 80px;
 }
 
-#menu{
-    height: 80px;
-    background-color: var(--branco);
+#menu {
+    display: none;
+    padding: 25px;
+    background-color: var(--preto);
     align-items: center;
     justify-content: center;
     transition: .6s;
 }
 
-.lista{
+.lista {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    gap:50px;    
+    gap: 50px;
 }
 
-.item{
-    font-family: 'Podkova';
+.item {
+    font-family: 'Poppins';
     font-size: 25px;
+    padding: 10px;
+}
+
+.ancora {
+    color: var(--branco);
 }
 
 .sticky {
@@ -117,12 +123,12 @@
     align-items: center;
 }
 
-#icon-d2{
+#icon-d2 {
     width: 50px;
     transition: .6s;
 }
 
-#icon-d2:hover{
+#icon-d2:hover {
     cursor: pointer;
     transform: translateY(-3px);
 }
@@ -260,4 +266,10 @@
     .d3 {
         flex-flow: column;
     }
+
+    .lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
