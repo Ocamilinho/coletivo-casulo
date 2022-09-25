@@ -122,6 +122,14 @@
     background-color: var(--preto);
     font-family: 'Poppins';
     font-size: 20px;
+
+    transition: .6s;
+}
+
+.botao-d2:hover{
+    transform: translateY(-15px);
+    opacity: .95;
+    cursor: pointer;
 }
 
 .d3{
@@ -160,7 +168,16 @@
     border-radius: 20px;
     border: none;
     font-family: 'Poppins';
-    font-size: 20px
+    font-size: 20px;
+    background-color: var(--branco); 
+
+    transition: .6s;
+}
+
+#botao-d3:hover{
+    transform: translateY(-15px);
+    opacity: .8;
+    cursor: pointer;
 }
 
 #palito-d3{
