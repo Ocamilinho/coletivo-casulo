@@ -81,6 +81,26 @@
     height: 80px;
 }
 
+#menu{
+    height: 80px;
+    background-color: var(--branco);
+    align-items: center;
+    justify-content: center;
+    transition: .6s;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap:50px;    
+}
+
+.item{
+    font-family: 'Podkova';
+    font-size: 25px;
+}
+
 .sticky {
     position: sticky;
     top: 0;
@@ -99,6 +119,12 @@
 
 #icon-d2{
     width: 50px;
+    transition: .6s;
+}
+
+#icon-d2:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
 }
 
 .div1-d2 {
@@ -123,7 +149,6 @@
     background-color: var(--preto);
     font-family: 'Poppins';
     font-size: 20px;
-
     transition: .6s;
 }
 
@@ -235,6 +260,4 @@
     .d3 {
         flex-flow: column;
     }
-
-
 }
