@@ -7,7 +7,7 @@ Tem como objetivo pensar e desenvolver um website estático com intuito de promo
 
 ## Como acessar o o desenvolvimento do projeto??
 
-Acesse a url (github.io/Ocamilinho) para assistir em tempo real o desenvolvimento,lembrando que o projeto segue privado,pois trata-se de um projeto a ser divulgado posteriomente.
+Acesse a url (https://ocamilinho.github.io/Sociologia-SJSXXI/) para assistir em tempo real o desenvolvimento,lembrando que o projeto segue privado,pois trata-se de um projeto a ser divulgado posteriomente.
 
 > ! Projeto não aberto ao público !
 
@@ -16,6 +16,6 @@ Acesse a url (github.io/Ocamilinho) para assistir em tempo real o desenvolviment
 Basta dar um git clone no repositório do coletivo,ou seja:
 
 ```git
-Git clone "Repositório"
+git clone "Repositório"
 ```
 
