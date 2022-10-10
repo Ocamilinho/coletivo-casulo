@@ -15,24 +15,27 @@
     --preto: #2e2e2d;
     --rosa: #d12128;
     --branco: #E8E8E3;
+    --font1: 'Podkova';
+    --font2: 'Poly';
+    --font3: 'Poppins';
 }
 
 
 .titulo {
     font-size: 40px;
-    font-family: 'Podkova';
+    font-family: var(--font1);
     color: var(--branco);
 }
 
 .frase {
     font-size: 24px;
-    font-family: 'Poly';
+    font-family: var(--font2);
     color: var(--branco);
 }
 
 .info {
     font-size: 20px;
-    font-family: 'Poppins';
+    font-family: var(--font3);
 }
 
 #d1 {
@@ -104,7 +107,7 @@
 }
 
 .item {
-    font-family: 'Poppins';
+    font-family: var(--font3);
     font-size: 25px;
     padding: 10px;
 }
@@ -148,7 +151,7 @@
 
 .frase-d2 {
     font-size: 24px;
-    font-family: 'Poly';
+    font-family: var(--font2);
     color: var(--branco);
 }
 
@@ -168,7 +171,7 @@
     border-radius: 20px;
     color: var(--branco);
     background-color: var(--preto);
-    font-family: 'Poppins';
+    font-family: var(--font3);
     font-size: 20px;
     transition: .6s;
     box-shadow: 1px 1px 5px var(--preto);
@@ -201,13 +204,13 @@
 
 .titulo-d3 {
     font-size: 40px;
-    font-family: 'Podkova';
+    font-family: var(--font1);
     color: var(--branco);
 }
 
 .frase-d3 {
     font-size: 24px;
-    font-family: 'Poly';
+    font-family: var(--font2);
     color: var(--branco);
 }
 
@@ -220,7 +223,7 @@
     margin: 5px;
     border-radius: 20px;
     border: none;
-    font-family: 'Poppins';
+    font-family: var(--font3);
     font-size: 20px;
     background-color: var(--branco);
     box-shadow: 1px 1px 5px black;
@@ -262,7 +265,7 @@
 }
 
 .info-d4{
-    font-family: 'Poppins';
+    font-family: var(--font3);
     font-size: 24px;
     color: white;
 }
@@ -305,12 +308,12 @@
     height: 60px;
     border-radius: 100%;
     background-color: var(--branco);
-    font-family: 'Podkova';
+    font-family: var(--font1);
     font-size: 50px;
 }
 
 .titulo-card-d4{
-    font-family: 'Podkova';
+    font-family: var(--font1);
     font-size: 30px;
     color: var(--branco);
     margin-top: 10px;
@@ -319,7 +322,7 @@
 }
 
 .texto-card-d4{
-    font-family: 'Poly';
+    font-family: var(--font2);
     font-size: 22px;
     color: var(--branco);
     margin: 10px;
@@ -328,7 +331,7 @@
 .titulo-d4{
 
     font-size: 40px;
-    font-family: 'Podkova';
+    font-family: var(--font1);
     color: var(--branco);
 }
 
