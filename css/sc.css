@@ -1,0 +1,79 @@
+.main-sc{
+	display: flex;
+    flex-direction: column;
+}
+
+.d1{
+    background-color: var(--preto);
+	display: flex; 
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+}
+
+.imagem{
+    border-right: 2px solid var(--branco);
+}
+
+#imagem-sc{
+    width: 40vw;
+    object-fit: cover;
+    filter: saturate(0);
+    transition: .6s;
+}
+
+#imagem-sc:hover{
+    filter: saturate(1);
+}
+
+
+
+.titulo-sc{
+	font-size: 37px;
+    font-family: var(--font1);
+    color: var(--branco);
+}
+.texto-sc{
+	font-size: 22px;
+    font-family: var(--font2);
+    color: var(--branco);
+}
+
+.palito-sc{
+	background-color: var(--rosa);
+    width: 200px;
+    height: 8px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px var(--preto);
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.conteudo-escrito{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.botao-sc{
+    padding: 20px;
+    width: 40%;
+    border: none;
+    border-radius: 20px;
+    color: var(--preto);
+    background-color: var(--branco);
+    font-family: var(--font3);
+    font-size: 20px;
+    transition: .6s;
+}
+
+.botao-sc:hover{
+    transform: translateY(-15px);
+    opacity: .95;
+    cursor: pointer;
+}

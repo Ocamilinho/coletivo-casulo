@@ -1,0 +1,32 @@
+.rodape{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+
+	background-color: var(--rosa);
+	padding: 20px;
+}
+
+.lista-footer{
+	list-style-type: none;
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 20px;
+}
+
+.item-footer{
+	color: white;
+	font-family: var(--font2);
+	font-weight: 600;
+}
+
+.redes{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+#icon-footer{
+	width: 160px;
+}

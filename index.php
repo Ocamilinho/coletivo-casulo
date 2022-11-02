@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coletivo Casulo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/b1210cbebf.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,25 +21,7 @@
         </div>
     </div>
 
-    <header id="header">
-        <div class="header-logo">
-            <img src="./imgs/Logos Coletivo Casulo-08.png" alt="logo-w-d2" id="logo-w-d2">
-        </div>
-
-        <ul class="lista">
-            <li class="item-d"><a href="" class="ancora">Primeira âncora</a></li>
-            <li class="item-d"><a href="" class="ancora">Segunda âncora</a></li>
-            <li class="item-d"><a href="" class="ancora">Sobre Nós</a></li>
-            <img src="./imgs/Icon-D2.png" alt="icon-d2" id="icon-d2" onclick="handleMenu()">
-        </ul>
-
-    </header>
-
-    <div id="menu">
-        <li class="item-m"><a href="" class="ancora">Primeira âncora</a></li>
-        <li class="item-m"><a href="" class="ancora">Segunda âncora</a></li>
-        <li class="item-m"><a href="" class="ancora">Sobre Nós</a></li>
-    </div>
+    <?php include 'includes/header.php'?>
 
     <div class="d2">
         <div class="div1-d2">
@@ -54,23 +39,15 @@
         <img src="./imgs/PauoFreire.png" alt="paulofreire" id="paulofreire-d3">
         <div class="div1-d3">
             <div class="div1-1-d3">
-                <h1 class="titulo-d3">Quem Somos?</h1>
+                <h1 class="titulo-d3">Quem foi Paulo Freire?</h1>
                 <hr id="palito-d3">
-                <p class="frase-d3">O Coletivo Casulo não se constituiu para ser uma instituição burocrática incorporada
-                    a dinâmica da sociedade civil brasileira, com estatuto e regras rigidamente definidas. É um Coletivo
-                    que vive sua historicidade nessa sociedade e, nela e partir dela, busca sua ampliação e
-                    posicionamento na conjuntura, defendendo políticas que não sejam soluções técnicas, mas que
-                    impulsionem organizações democráticas de âmbito comunitário.</p>
-            </div>
-            <div class="div1-2-d3">
-                <a href="./downloads-files/Casulo - Manifesto.pdf" download="Casulo - Manifesto"><button
-                        id="botao-d3">Baixar manifesto !</button></a>
+                <p class="frase-d3">Paulo Freire (1921-1997) é Patrono da Educação Brasileira e autor da “Pedagogia do Oprimido”. Conhecido pelo método de alfabetização de adultos que leva seu nome, Freire desenvolveu um pensamento pedagógico que defende que o objetivo maior da educação é conscientizar o estudante. Seu trabalho como educador mudou a forma de alfabetização dentro e fora do Brasil, e ao tratar o processo educacional como um ato de conscientização, Paulo Freire acabou sendo preso, acusado de “subversão”, pela ditadura militar brasileira (1964 – 1985), e após 72 dias em cárcere foi um dos primeiros brasileiros exilados.</p>
             </div>
         </div>
 
 
     </div>
-    <div class="d4">
+    <div class="d4" id="d4">
         <div class="div-texto-d4">
             <h1 class="titulo">Escola de Formação</h1>
             <h2 class="info-d4">Principais Propostas</h2>
@@ -99,10 +76,13 @@
                     <hr class="barra-d4">
                     <p class="texto-card-d4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem
                         quia</p>
+
                 </li>
             </ul>
         </div>
     </div>
+
+    <?php include 'includes/footer.php'?>
 
 
     <script src="script.js"></script>
