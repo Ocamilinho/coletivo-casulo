@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <script src="https://kit.fontawesome.com/b1210cbebf.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -83,10 +82,7 @@
     </div>
 
     <?php include 'includes/footer.php'?>
-
-
-    <script src="script.js"></script>
-
+    <?php include 'includes/javascript.php'?>
 </body>
 
 </html>

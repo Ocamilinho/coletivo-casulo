@@ -4,7 +4,6 @@
         </div>
 
         <ul class="lista">
-            <li class="item-d"><a href="" class="ancora">âncora</a></li>
             <li class="item-d"><a href="index.php #d4" class="ancora">Escola</a></li>
             <li class="item-d"><a href="sobreColetivo.php" class="ancora">Sobre Nós</a></li>
             <img src="./imgs/Icon-D2.png" alt="icon-d2" id="icon-d2" onclick="handleMenu()">
@@ -13,7 +12,6 @@
     </header>
 
     <div id="menu">
-        <li class="item-m"><a href="" class="ancora">Primeira âncora</a></li>
-        <li class="item-m"><a href="" class="ancora">Segunda âncora</a></li>
-        <li class="item-m"><a href="" class="ancora">Sobre Nós</a></li>
+        <li class="item-m"><a href="index.php #d4" class="ancora">Escola</a></li>
+        <li class="item-m"><a href="sobreColetivo.php" class="ancora">Sobre Nós</a></li>
     </div>

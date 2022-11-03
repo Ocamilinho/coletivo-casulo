@@ -22,13 +22,14 @@
 					<hr class="palito-sc">
 					<p class="texto-sc">O Coletivo Casulo não se constituiu para ser uma instituição burocrática incorporada a dinâmica da sociedade civil brasileira, com estatuto e regras rigidamente definidas. É um Coletivo que vive sua historicidade nessa sociedade e, nela e partir dela, busca sua ampliação e posicionamento na conjuntura, defendendo políticas que não sejam soluções técnicas, mas que impulsionem organizações democráticas de âmbito comunitário.</p>
 				</div>
-				<button class="botao-sc">Entenda Mais!</button>
+				<div class="inter">			
+				<button class="botao-sc"><a href="downloads-files/manifesto.pdf" class="ancora-sc" download="Manifesto">Entenda Mais!</a></button>
+				</div>
 			</div>
 		</div>
 				
 	</main>
 	<?php include 'includes/footer.php'?>
-
-	<script></script>
+	<?php include 'includes/javascript.php'?>
 </body>
 </html>

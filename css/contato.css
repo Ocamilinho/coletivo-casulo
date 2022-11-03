@@ -1,0 +1,100 @@
+.d1{
+	background-color: var(--preto);
+    gap: 20px;
+    height: calc(100vh - 59px);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 10px;
+	background-color: var(--rosa);
+	border-radius: 20px;
+	padding: 30px;
+
+}
+
+.user{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 10px;
+}
+
+.input-texto{
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	padding: 5px;
+	background-color: var(--preto);
+	border: none;
+	color: white;
+	border-radius: 5px;
+	font-family: var(--font2);
+}
+
+.titulo-campo-user{
+	font-family: var(--font3);
+	color: white;
+	font-size: 27px;
+}
+
+.mensagem{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#mensagem{
+	display: flex;
+	justify-content: center;
+	height: 200px;
+	width: 400px;
+	padding: 5px;
+	background-color: var(--preto);
+	border: none;
+	color: white;
+	border-radius: 5px;
+	font-family: var(--font2);
+}
+
+.inter{
+	display: flex;
+	justify-content: center;
+}
+
+#envio{
+	width: 169px;
+	height: 40px;
+	padding: 5px;
+	background-color: var(--preto);
+	border: none;
+	color: white;
+	border-radius: 5px;
+	font-family: var(--font2)
+}
+
+@media screen and (max-width: 600px){
+	.user {
+	  flex-direction: column;
+	}
+
+	#mensagem {
+	  width: 80vw;
+	}
+
+	.input-texto {
+	  width: 80vw;
+	}
+
+	.d1{
+		justify-content: flex-start;
+		padding: 20px 0px 0px 0px;
+	}
+
+}
