@@ -136,7 +136,7 @@
 }
 
 #d1 {
-    display: flex;
+    display: none;
     align-content: center;
     align-items: center;
     flex-flow: column nowrap;
@@ -326,7 +326,7 @@
 
 .item-d4:hover{
     opacity: 1;
-}   
+}
 
 .number-circle{
     display: flex;
@@ -372,6 +372,10 @@
     border: none;
 }
 
+.ancora-card{
+    color: var(--preto);
+}
+
 
 
 
@@ -406,7 +410,7 @@
         display: none;
     }
 
-    
+
 }
 
 @media  screen and (max-width:940px) and (min-width:599px) {
@@ -417,7 +421,7 @@
         width: 100vw;
         max-width: 100vw;
     }
-    
+
 }
 
 
@@ -432,6 +436,9 @@
         font-size: 36px;
     }
 
+    #d1{
+      display: flex;
+    }
 
     .d3 {
         flex-flow: column;
@@ -453,7 +460,7 @@
     #icon-d2{
         display: flex;
     }
-    
+
 
     .item-d{
         font-size: 18px;

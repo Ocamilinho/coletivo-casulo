@@ -55,28 +55,35 @@
 
         <div class="cards-d4">
             <ul class="lista-d4">
-                <li class="item-d4">
-                    <span class="number-circle">1</span>
-                    <p class="titulo-card-d4">A arte e a educação decolonial</p>
-                    <hr class="barra-d4">
-                    <p class="texto-card-d4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem
-                        quia</p>
-                </li>
-                <li class="item-d4">
-                    <span class="number-circle">2</span>
-                    <p class="titulo-card-d4">Construindo um projeto de economia solidária</p>
-                    <hr class="barra-d4">
-                    <p class="texto-card-d4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem
-                        quia</p>
-                </li>
-                <li class="item-d4">
-                    <span class="number-circle">3</span>
-                    <p class="titulo-card-d4">Justiça,direito e periferias</p>
-                    <hr class="barra-d4">
-                    <p class="texto-card-d4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem
-                        quia</p>
+                <a href="proposta-modelo.php" class="ancora-card">
+                    <li class="item-d4">
+                        <span class="number-circle">1</span>
+                        <p class="titulo-card-d4">A arte e a educação decolonial</p>
+                        <hr class="barra-d4">
+                        <p class="texto-card-d4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem
+                            quia</p>
+                    </li>
+                </a>
 
-                </li>
+                <a href="proposta-modelo.php" class="ancora-card">
+                  <li class="item-d4">
+                      <span class="number-circle">2</span>
+                      <p class="titulo-card-d4">Construindo um projeto de economia solidária</p>
+                      <hr class="barra-d4">
+                      <p class="texto-card-d4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem
+                          quia</p>
+                  </li>
+                </a>
+
+                <a href="proposta-modelo.php" class="ancora-card">
+                  <li class="item-d4">
+                      <span class="number-circle">3</span>
+                      <p class="titulo-card-d4">Justiça,direito e periferias</p>
+                      <hr class="barra-d4">
+                      <p class="texto-card-d4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptatem
+                          quia</p>
+                  </li>
+                </a>
             </ul>
         </div>
     </div>
