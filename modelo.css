@@ -10,6 +10,7 @@ body{
   gap:20px;
   background-image: url(imgs/Funo.png);
   height: 200px;
+  justify-self: center;
 }
 
 .d1-c{
@@ -21,6 +22,7 @@ body{
   gap: 20px;
   padding: 40px;
   border-radius: 20px;
+  justify-content: center;
   
 }
 
@@ -85,4 +87,19 @@ body{
 
 .videoshadow{
   box-shadow:6px 6px 0px var(--rosa);
+}
+
+@media screen and (max-width:600px) {
+  .d1-c{
+    width: 90vw;
+  }
+
+.titulo-proposta {
+  font-size: 29px;
+}
+
+.texto-proposta {
+  font-size: 20px;
+}
+
 }
