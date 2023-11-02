@@ -20,7 +20,22 @@
         </div>
     </div>
 
-    <?php include 'includes/header.php'?>
+    <header id="header">
+        <div class="header-logo">
+            <a href="index.html"><img src="./imgs/Logos Coletivo Casulo-08.png" alt="logo-w-d2" id="logo-w-d2"></a>
+        </div>
+        <ul class="lista">
+            <li class="item-d"><a href="index.html#d4" class="ancora">Escola</a></li>
+            <li class="item-d"><a href="sobreColetivo.html" class="ancora">Sobre Nós</a></li>
+            <img src="./imgs/Icon-D2.png" alt="icon-d2" id="icon-d2" onclick="handleMenu()">
+        </ul>
+    </header>
+
+    <div id="menu">
+        <li class="item-m"><a href="index.html#d4" class="ancora">Escola</a></li>
+        <li class="item-m"><a href="sobreColetivo.html" class="ancora">Sobre Nós</a></li>
+    </div>
+
 
     <div class="d2">
         <div class="div1-d2">
@@ -55,7 +70,7 @@
 
         <div class="cards-d4">
             <ul class="lista-d4">
-                <a href="proposta-modelo.php" class="ancora-card">
+                <a href="proposta-modelo.html" class="ancora-card">
                     <li class="item-d4">
                         <span class="number-circle">1</span>
                         <p class="titulo-card-d4">A arte e a educação decolonial</p>
@@ -65,7 +80,7 @@
                     </li>
                 </a>
 
-                <a href="proposta-modelo.php" class="ancora-card">
+                <a href="proposta-modelo.html" class="ancora-card">
                   <li class="item-d4">
                       <span class="number-circle">2</span>
                       <p class="titulo-card-d4">Construindo um projeto de economia solidária</p>
@@ -75,7 +90,7 @@
                   </li>
                 </a>
 
-                <a href="proposta-modelo.php" class="ancora-card">
+                <a href="proposta-modelo.html" class="ancora-card">
                   <li class="item-d4">
                       <span class="number-circle">3</span>
                       <p class="titulo-card-d4">Justiça,direito e periferias</p>
@@ -88,8 +103,19 @@
         </div>
     </div>
 
-    <?php include 'includes/footer.php'?>
-    <?php include 'includes/javascript.php'?>
+    <footer class="rodape">
+	<div class="comun">
+		<ul class="lista-footer">
+			<li class="item-footer"><a href="contato.html" class="ancora">Entre em contato</a></li>
+			<li class="item-footer">Termos de uso</li>
+			<li class="item-footer">Politicas de privacidade</li>
+		</ul>
+	</div>
+	<div class="redes">
+		
+	</div>
+</footer>
+      <script src="script.js"></script>
 </body>
 
 </html>

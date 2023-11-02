@@ -306,7 +306,7 @@
 }
 .lista-d4{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;

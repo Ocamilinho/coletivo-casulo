@@ -10,7 +10,22 @@
     <link rel="stylesheet" href="css/sc.css">
 </head>
 <body>
-	<?php include 'includes/header.php'?>
+	<header id="header">
+        <div class="header-logo">
+            <a href="index.html"><img src="./imgs/Logos Coletivo Casulo-08.png" alt="logo-w-d2" id="logo-w-d2"></a>
+        </div>
+        <ul class="lista">
+            <li class="item-d"><a href="index.html#d4" class="ancora">Escola</a></li>
+            <li class="item-d"><a href="sobreColetivo.html" class="ancora">Sobre Nós</a></li>
+            <img src="./imgs/Icon-D2.png" alt="icon-d2" id="icon-d2" onclick="handleMenu()">
+        </ul>
+    </header>
+
+    <div id="menu">
+        <li class="item-m"><a href="index.html#d4" class="ancora">Escola</a></li>
+        <li class="item-m"><a href="sobreColetivo.html" class="ancora">Sobre Nós</a></li>
+    </div>
+
 	<main class="main-sc">
 		<div class="d1">
 			<div class="imagem">
@@ -23,13 +38,21 @@
 					<p class="texto-sc">O Coletivo Casulo não se constituiu para ser uma instituição burocrática incorporada a dinâmica da sociedade civil brasileira, com estatuto e regras rigidamente definidas. É um Coletivo que vive sua historicidade nessa sociedade e, nela e partir dela, busca sua ampliação e posicionamento na conjuntura, defendendo políticas que não sejam soluções técnicas, mas que impulsionem organizações democráticas de âmbito comunitário.</p>
 				</div>
 				<div class="inter">
-				<a href="./quemSomos.php" class="ancora-sc"><button class="botao-sc">Entenda Mais!</button></a>
+				<a href="./quemSomos.html" class="ancora-sc"><button class="botao-sc">Entenda Mais!</button></a>
 				</div>
 			</div>
 		</div>
-
-	</main>
-	<?php include 'includes/footer.php'?>
-	<?php include 'includes/javascript.php'?>
+		<footer class="rodape">
+			<div class="comun">
+				<ul class="lista-footer">
+					<li class="item-footer"><a href="contato.html" class="ancora">Entre em contato</a></li>
+					<li class="item-footer">Termos de uso</li>
+					<li class="item-footer">Politicas de privacidade</li>
+				</ul>
+			</div>
+		</footer> 
+		</main>
+	
+	  <script src="script.js"></script>
 </body>
 </html>
